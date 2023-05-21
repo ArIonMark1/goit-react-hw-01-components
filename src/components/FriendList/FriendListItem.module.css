@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  gap: 10px;
+  /* justify-content: space-between; */
+  align-items: center;
+  border: 1px solid grey;
+  min-width: 400px;
+}
+.status {
+  margin-left: 10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: yellowgreen;
+}
+.status.online {
+  background-color: yellowgreen;
+}
+.status.ofline {
+  background-color: tomato;
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.name {
+}
